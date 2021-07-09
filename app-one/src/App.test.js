@@ -52,7 +52,7 @@ test('disabled button turns dark gray when input is checked, and then returns', 
 });
 
 describe('spaces before camel-cased capital letters', () => {
-	test('Works for no inner caps', () => {
+	test('Works for no inner cap', () => {
 		expect(replaceCamelWithSpaces('Skelethon')).toBe('Skelethon');
 	});
 	test('Works for one inner caps', () => {
